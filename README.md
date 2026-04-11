@@ -75,29 +75,6 @@ The dataset contains transactional records from the restaurant's order managemen
 
 ---
 
-## 📁 Project Structure
-
-restaurant-sales-analysis/
-│
-├── dataset/
-│   └── restaurant_sales.csv          # Raw dataset
-│
-├── sql/
-│   ├── 01_data_cleaning.sql          # Null handling, deduplication, formatting
-│   ├── 02_revenue_analysis.sql       # Total & category-level revenue breakdown
-│   ├── 03_product_performance.sql    # Top/bottom selling items, contribution %
-│   ├── 04_customer_analysis.sql      # Loyal customers, AOV, frequency analysis
-│   ├── 05_payment_analysis.sql       # Payment method distribution
-│   ├── 06_time_based_analysis.sql    # Daily, weekly, monthly sales trends
-│   └── 07_avg_order_value.sql        # AOV calculation across segments
-│
-├── insights/
-│   └── business_insights.md         # Key findings and strategic recommendations
-│
-└── README.md
-
----
-
 ## 📈 Key SQL Analysis
 
 ### ✅ 1. Data Cleaning
